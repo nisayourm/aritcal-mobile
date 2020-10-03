@@ -22,8 +22,6 @@ const AppNavigator = createStackNavigator({
  Detail: DetailScreen,
  Comment:  CommentScreen,
 
-
-
 });
   
   const AppContainer = createAppContainer(AppNavigator);
@@ -47,3 +45,4 @@ const AppNavigator = createStackNavigator({
       )
     }
   }
+  
